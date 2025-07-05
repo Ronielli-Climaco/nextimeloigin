@@ -25,21 +25,20 @@ body {
     flex-direction: column;
 }
     
-
-h1 {
-	font-size: clamp(20px, 9vw, 45px);
+.nextime {
+    font-size: clamp(20px, 9vw, 45px);
+    margin-bottom: -26px;
 }
 
-h2 {
-	text-align: center;
+.agendamentos {
+    text-align: center;
     font-size: clamp(6px, 2.5vw, 12px);
     padding-top: 0;
     margin-bottom: 30px;
-    margin-top: -30px;
-
+    margin-top: 0;
 }
 
-p {
+.byNixion  {
 	font-size: 0.6rem;
     text-align: right;
     margin-top: 10px;
