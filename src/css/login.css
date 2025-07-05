@@ -13,18 +13,29 @@ body {
 	background-color: #405063;
 }
 
+.imgLogo {
+    width: 17vw;
+    max-width: 110px;
+    margin-right: -12px;
+}
+
+.divLogoH1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+    
+
 h1 {
-	text-align: center;
-	margin-bottom: 0;
-	padding-bottom: 0;
+	font-size: clamp(20px, 8vw, 45px);
 }
 
 h2 {
 	text-align: center;
-    font-size: 0.55rem;
-    margin-top: 0;
-	padding-top: 0;
-	margin-bottom: 20px;
+    font-size: clamp(6px, 2.2vw, 12px);
+    padding-top: 0;
+    margin-bottom: 30px;
+    margin-top: -30px;
 
 }
 
@@ -36,7 +47,6 @@ p {
 
 }
 .fundoLogin {
-		
 	display: flex;
     background-color: #ebebeb;
     justify-content: center;
@@ -44,7 +54,9 @@ p {
     padding: 30px;
     margin-top: 25vh;
     flex-direction: column;
-	box-shadow: 5px 20px 15px;
+    box-shadow: 5px 20px 15px;
+    max-width: 350px;
+    width: 80vw;
 }
 
 form {
