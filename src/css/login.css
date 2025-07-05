@@ -27,12 +27,12 @@ body {
     
 
 h1 {
-	font-size: clamp(20px, 8vw, 45px);
+	font-size: clamp(20px, 9vw, 45px);
 }
 
 h2 {
 	text-align: center;
-    font-size: clamp(6px, 2.2vw, 12px);
+    font-size: clamp(6px, 2.5vw, 12px);
     padding-top: 0;
     margin-bottom: 30px;
     margin-top: -30px;
@@ -60,12 +60,9 @@ p {
 }
 
 form {
-	display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    justify-self: center;
+	max-width: 500px;
     min-width: 250px;
-    align-items: center;
+    text-align: center;
 }
 
 label {
@@ -81,28 +78,33 @@ label {
 .labelUsuario {
 	position: absolute;
     margin-top: -8px;
-    margin-left: -195px;
+    margin-left: 10px;;
 }
 
 .labelPassword {
 	position: absolute;
-    margin-top: 44px;
-    margin-left: -205px;
+    margin-top: -8px;
+    margin-left: 10px;
 }
 
 
 .campoTexto {
-	padding: 5px;
+	padding: 8px;
     outline: none;
-	margin-bottom: 15px;
-	background-color: #ebebeb;
-	border: solid 1px;
-	border-color: #676767;
-    font-size: 1.3rem;
+    margin-bottom: 15px;
+    background-color: #ebebeb;
+    border: solid 1px;
+    border-color: #676767;
+    font-size: 0.9rem;
     width: 63vw;
     max-width: 270px;
 }
 
 .divButton {
 	margin-left: -115px;
+}
+
+.button {
+    font-size: clamp(5px, 6vw, 18px);
+    padding: 5px;
 }
